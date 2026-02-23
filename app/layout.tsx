@@ -8,6 +8,9 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://paul-bot-xi.vercel.app"
+  ),
   title: "PAUL bot",
   description: "永野広志（Paul）のAIチャットボット。仕事、旅、好きなものについてなんでもきいてね。",
   icons: {
