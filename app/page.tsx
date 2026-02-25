@@ -114,7 +114,15 @@ export default function Home() {
     <div className="flex h-dvh flex-col bg-zinc-950 text-zinc-100">
       {/* Header */}
       <header className="flex-shrink-0 border-b border-zinc-800 px-4 py-3">
-        <h1 className="text-center text-lg font-bold tracking-wide">PAUL bot</h1>
+        <div className="mx-auto flex max-w-2xl items-center justify-between">
+          <h1 className="text-lg font-bold tracking-wide">PAUL bot</h1>
+          <a
+            href="/portfolio"
+            className="text-sm text-zinc-400 transition-colors hover:text-zinc-200"
+          >
+            Portfolio
+          </a>
+        </div>
       </header>
 
       {/* Messages */}
